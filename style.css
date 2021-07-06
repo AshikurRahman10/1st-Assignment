@@ -1,0 +1,177 @@
+/* 
+Hey this is my fist assignment
+
+Name: Ashikur Rahman
+Email: ashikurrahman7071@gmail.com
+Phone: 01642685001
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+
+/* start home section  */
+
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 30px;
+  color: rgb(92, 89, 89);
+  margin-bottom: 20px;
+}
+h3 {
+  margin-bottom: 30px;
+}
+span {
+  color: #ff8b30;
+}
+p {
+  font-size: 15px;
+  color: rgb(116, 113, 113);
+  margin-bottom: 30px;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.nav {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+}
+.list li {
+  list-style: none;
+  display: inline-block;
+}
+.list li a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #ff9435;
+  font-size: 20px;
+}
+.list li a:hover {
+  color: #ff4c0c;
+  font-weight: 600;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  margin-top: 50px;
+}
+.btn a {
+  text-decoration: none;
+  background: linear-gradient(to right, #ff9334, #ff4a0a);
+  padding: 11px 15px;
+  color: #fff;
+  border-radius: 22px;
+  font-weight: 600px;
+}
+.btn a:hover {
+  background: linear-gradient(to left, #ff9334, #ff4a0a);
+  box-shadow: 0 0 3px 2px rgb(182, 181, 181);
+}
+
+/* End home section  */
+
+/* Start About Section */
+
+#About {
+  background: url(image/shapes/7.png) no-repeat center top / cover;
+  margin: 80px;
+  margin: 80px;
+}
+
+/* End About Section */
+
+/* <!-- Start Recipie Section --> */
+
+.recipies-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.recipies {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.recipies-item img {
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.recipies-item {
+  padding: 15px;
+  box-shadow: 0 0 5px 5px rgb(192, 191, 191);
+  margin: 15px;
+  border-radius: 20px;
+}
+
+/* <!-- End Recipie Section --> */
+
+/* Start Order Section */
+
+.order {
+  width: 50%;
+  margin: 0 auto;
+}
+.order .title h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+input[type="text"],
+[type="Email"],
+[type="Number"],
+[type="Password"],
+textarea {
+  width: 90%;
+  padding: 12px;
+  border: 2px solid rgb(170, 169, 169);
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.order-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 30px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* End Order Section */
+
+/*  Start Fotter Section  */
+
+#fotter {
+  margin-top: 100px;
+  background-color: #000;
+}
+.fotter-item .title {
+  color: #fff;
+  padding: 25px 0;
+}
+.fotter-item {
+  text-align: center;
+}
+/*  End Fotter Section  */
+.copy-rits {
+  text-align: center;
+}
